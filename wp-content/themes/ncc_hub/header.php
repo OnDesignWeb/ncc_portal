@@ -108,7 +108,7 @@
 				<div class="main-nav trans5">
 					<nav>
 						<ul>
-							<li class="logo"><a href="/"><img class="trans5" src="<?php echo get_template_directory_uri(); ?>/img/ncc-logo.png" alt=""></a></li>
+							<li class="logo"><a href="<?php echo get_site_url(); ?>"><img class="trans5" src="<?php echo get_template_directory_uri(); ?>/img/ncc-logo.png" alt=""></a></li>
 
 							<?php wp_nav_menu( array( 'theme_location' => 'main-menu','container'      => '', 'items_wrap'    => '%3$s' ) ); ?>
 
