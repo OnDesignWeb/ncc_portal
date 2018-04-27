@@ -88,7 +88,7 @@ if (has_post_thumbnail( $post->ID ) ){
 						<div class="related-blog video-box">
 				
 
-				<a href="<?php the_field('video_link'); ?>"><div class="top-image" style="background: url('<?php the_field('poster_image'); ?>'); background-size: cover; background-position: center;">
+				<a href="<?php the_field('video_link'); ?>" target="_new"><div class="top-image" style="background: url('<?php the_field('poster_image'); ?>'); background-size: cover; background-position: center;">
 					
 					<div class="video-overlay">
 						

@@ -91,6 +91,11 @@
  					.page-template-template-account-page .inner-main #wpmem_login legend { color: #e52d42 !important; }
  					.page-template-template-account-page .inner-main #wpmem_reg legend { color: #e52d42 !important; }
 
+ 					.category h3 { color: #e52d42 !important; }
+
+ 					.category a:hover .button { background: #a93339 !important;  }
+ 					.category a:hover h3 { color: #a93339 !important;  }
+
 
 		</style>
 

@@ -96,7 +96,7 @@ if (has_post_thumbnail( $post->ID ) ){
 
 					foreach($rows as $row)
 					{
-						echo '<li><a href="'. $row['resource_download'] .'">'. $row['resource_name'] .'</a></li>';
+						echo '<li><a href="'. $row['resource_download'] .'" target="_new">'. $row['resource_name'] .'</a></li>';
 
 
 						 

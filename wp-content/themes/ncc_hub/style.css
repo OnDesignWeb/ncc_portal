@@ -638,8 +638,11 @@ header {
   height: calc(100% - 70px);
   background: #fff;
 }
+a .event:first-child {
+  padding: 30px 30px 30px 30px;
+}
 a .event {
-  padding: 30px;
+  padding: 0 30px 30px 30px;
   position: relative;
 }
 a .event h5 {
@@ -814,7 +817,7 @@ a:hover .vacancies .icon-right-arrow {
 .vacancies-end {
   text-align: center;
   opacity: 0.2;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 .vacancies-box-mobile {
   width: calc(100% - 40px);
@@ -917,6 +920,27 @@ a:hover .vacancies .icon-right-arrow {
 }
 .page-template-template-creative-careers-directory .open.inner-arrow-box .icon-plus {
   transform: rotate(-45deg);
+}
+.page-template-template-creative-careers .menu-careers {
+  font-weight: bold !important;
+}
+.page-template-template-creative-careers-directory .menu-careers {
+  font-weight: bold !important;
+}
+.page-template-template-creative-careers-inner .menu-careers {
+  font-weight: bold !important;
+}
+.page-template-template-creative-educators-inner .menu-educators {
+  font-weight: bold !important;
+}
+.page-template-template-creative-industries-inner .menu-industries {
+  font-weight: bold !important;
+}
+.page-template-template-creative-talent .menu-talent {
+  font-weight: bold !important;
+}
+.page-template-template-whats-happening .menu-events {
+  font-weight: bold !important;
 }
 .quick-links {
   max-width: 1400px;
@@ -1347,6 +1371,51 @@ footer .footer-bottom a:hover {
 }
 .video-box:hover .video-overlay {
   opacity: 0.7;
+}
+.category section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.category h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.category .news-item {
+  width: calc(33.333% - 40px);
+  background: #fff;
+  margin-bottom: 0px !important;
+  float: left;
+  margin: 0 20px 40px 20px;
+}
+.category .news-item-text {
+  padding: 30px;
+}
+.category .news-item .button {
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.category a {
+  color: #000;
+}
+.category a:hover {
+  color: #000;
+}
+.category h3 {
+  font-size: 20px;
+}
+.category .date {
+  font-style: italic;
+  color: #999;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {

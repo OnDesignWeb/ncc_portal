@@ -226,7 +226,8 @@ header { width: 100%; height: 135px; background: #fff; position: fixed; z-index:
 .arrow-box { position: absolute; right: 0; top: 0; width: 70px; height: 70px; text-align: center; background: rgba(0,0,0,0.2); color: #fff; font-size: 24px; padding-top: 20px; .trans3; }
 .arrow-box:hover { background: rgba(0,0,0,0.4); }
 .events-scroller { overflow: hidden; height: calc(~'100% - 70px'); background: #fff; }
-a .event { padding: 30px; position: relative;  }
+a .event:first-child { padding: 30px 30px 30px 30px; }
+a .event { padding: 0 30px 30px 30px; position: relative;  }
 a .event{
   h5 { font-size: 20px; margin: 0; color: #000; .trans3; font-weight: normal; max-width: 80%; }
   p { padding-bottom: 20px; max-width: 80%; color: #464646; }
@@ -265,7 +266,7 @@ a .vacancies {
 }
 a:hover .vacancies .icon-right-arrow { left: 70%; }
 
-.vacancies-end { text-align: center; opacity: 0.2; padding-bottom: 30px; }
+.vacancies-end { text-align: center; opacity: 0.2; padding: 30px; }
 
 .vacancies-box-mobile { width: calc(~'100% - 40px'); height: auto;  margin: 20px 20px 0 20px; z-index: 3; position: relative; float: none; }
 
@@ -297,6 +298,27 @@ a:hover .vacancies .icon-right-arrow { left: 70%; }
 
 
 }
+
+
+
+
+.page-template-template-creative-careers .menu-careers { font-weight: bold !important; }
+.page-template-template-creative-careers-directory .menu-careers { font-weight: bold !important; }
+.page-template-template-creative-careers-inner .menu-careers { font-weight: bold !important; }
+
+.page-template-template-creative-educators-inner .menu-educators { font-weight: bold !important; }
+
+.page-template-template-creative-industries-inner .menu-industries { font-weight: bold !important; }
+
+.page-template-template-creative-talent .menu-talent { font-weight: bold !important; }
+
+.page-template-template-whats-happening .menu-events { font-weight: bold !important; }
+
+
+
+
+
+
 
 
 
@@ -479,6 +501,32 @@ footer {
 .video-box:hover { 
   .video-overlay { opacity: 0.7 } 
 }
+
+
+.category {
+
+  section { max-width: 1400px; margin: 0 auto; padding-bottom: 40px; }
+
+
+
+  h1 { text-align: center; margin-top: 50px; margin-bottom: 30px; }
+
+  
+
+  .news-item { width: calc(~'33.333% - 40px'); background: #fff; margin-bottom: 0px !important; float: left; margin: 0 20px 40px 20px;  }
+  .news-item-text { padding: 30px; }
+
+  .news-item .button { position: relative; display: inline-block; left: 50%; transform: translateX(-50%); margin-top: 10px; .trans3; }
+
+  a { color: #000; }
+  a:hover { color: #000; }
+  h3 { font-size: 20px; }
+  .date { font-style: italic; color: #999; }
+
+
+
+}
+
 
 
 /* Large Devices, Wide Screens */
